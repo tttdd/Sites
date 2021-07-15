@@ -1,0 +1,315 @@
+.main-content{
+    display: flex;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.main-content-left-container{
+    background: white;
+    margin-top: 24px;
+    border: 1px solid #DDE0E6;
+    padding: 16px;
+    margin-right: 24px;
+    height: 600px
+}
+.main-content-left-container p{
+    margin-left:25px;
+}
+.image-container{
+    border-radius: 20px;
+    background: green;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+}
+.post-image img{
+    width: 100%;
+}
+.post-title{
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.post-title-hight-icons span{
+    text-align: center;
+    margin: 0px;
+    margin-right: 15px;
+    margin-left: 15px;
+
+}
+.post-title-hight-icons{
+    display: flex;
+    /* margin-bottom: 16px; */
+    align-items: center;
+    align-content: center;
+}
+.color-bust{
+    color: blue;
+}
+.comment-title{
+    margin-top: 16px;
+}
+.comment{
+    display: flex;
+    align-items: center;
+
+}
+.comment img{
+    padding-right: 15px;
+    padding-left: 8px;
+}
+.post-title-low-icons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.post-title-low-icons div{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    justify-content: space-around;
+}
+
+.post-title-low-icons-left img{
+    width: 18px;
+    height: 18px;
+}
+select{
+    position: relative;
+    top: 100px;
+    left: -16px;
+    width: 872px;
+    height: 52px;
+    background: #FFFFFF;
+    border: 1px solid #DDE0E6;
+}
+.main-content-right-container{
+    margin-top: 24px;
+    margin-right: 24px;
+}
+.avatar h3{
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-size: 18px;
+
+}
+.avatar p{
+    margin-bottom: 20px;
+}
+.img{
+    width: 144px;
+    height: 144px;
+}
+.avatar{
+    background: white;
+    width: 352px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid #DDE0E6;
+    padding-top: 32px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.avatar div{
+}
+.avatar div img:nth-last-of-type(2n){
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.navigator{
+    margin-top: 24px;
+    padding-top: 10px;
+    border: 1px solid #DDE0E6;
+    background: white;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.navigator h3{
+    font-size: 16px;
+}
+.navigator-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #DDE0E6;
+    background: white;
+}
+.navigator-title img{
+    width: 10px;
+    height: 5px;
+}
+hr{
+    width: 100%;
+    background: #DDE0E6
+}
+.func-navigator img{
+    margin-right: 10px;
+    width: 16px;
+    height: 20px;
+}
+.func-navigator div{
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+
+}
+.balance {
+    text-align: center;
+    position: relative;
+    left: 66%;
+    color: #A1A5AE;
+}
+.connection-red{
+    text-align: center;
+    width: 23px;
+    height: 16px;
+    background: red;
+    color: white;
+    position: relative;
+    left: 64%;
+    border-radius: 8px;
+}
+.connection-blue{
+    text-align: center;
+    width: 23px;
+    height: 16px;
+    background: blue;
+    color: white;
+    position: relative;
+    left: 64%;
+    border-radius:8px;
+}
+.message-block{
+    border: 1px solid #DDE0E6;
+    margin-top: 24px;
+    background: #FFFFFF;
+}
+.message-block-title h3{
+    margin: 0px;
+}
+.message-block-title{
+    display: flex;
+    padding: 12px 24px 12px 24px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #DDE0E6;
+}
+.message-block-title img{
+    width: 10px;
+    height: 5px;
+}
+.message-block textarea{
+    border: 1px solid #DDE0E6;
+    padding: 12px 24px 12px 24px;
+    min-height: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 12px;
+}
+@media (max-width: 1553px) {
+    .main-content{
+        display: block;
+    }
+    .main-content-right-container{
+        margin-top: 24px;
+        /* margin-right: 24px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navigator{
+        margin-top: 24px;
+        padding-top: 10px;
+        border: 1px solid #DDE0E6;
+        background: white;
+        padding-left: 24px;
+        padding-right: 24px;
+        width: 60%;
+    }
+    .message-block{
+        border: 1px solid #DDE0E6;
+        margin-top: 24px;
+        background: #FFFFFF;
+        width: 68%;
+    }
+    .message-block textarea{
+        border: 1px solid #DDE0E6;
+        padding: 12px 24px 12px 24px;
+        min-height: 50px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    select{
+        position: relative;
+        top: 100px;
+        /* width: 872px; */
+        width: 100%;
+        height: 52px;
+        background: #FFFFFF;
+        border: 1px solid #DDE0E6;
+    }
+    .post-title-hight-icons{
+        display: flex;
+        justify-content: space-between;
+        width: 20%;
+        margin-bottom: 16px;
+        align-items: center;
+    }
+    post-title-hight-icons span{
+        margin: 0px;
+        text-align: center;
+    }
+    .post-title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main-content-left-container{
+        background: white;
+        margin-top: 24px;
+        border: 1px solid #DDE0E6;
+        padding: 16px;
+        margin-right: 24px;
+        height: 60%;
+    }
+}
+@media screen and  (max-width: 700px) and (min-width:400px) {
+    .balance{
+        text-align: center;
+        position: relative;
+        left: 48%;
+        color: #A1A5AE;
+    }
+    .connection-red{
+        text-align: center;
+        width: 23px;
+        height: 16px;
+        background: red;
+        color: white;
+        position: relative;
+        left: 48%;
+        border-radius: 8px;
+    }
+    .connection-blue{
+        text-align: center;
+        width: 23px;
+        height: 16px;
+        background: blue;
+        color: white;
+        position: relative;
+        left: 48%;
+        border-radius: 8px;
+    }
+}
