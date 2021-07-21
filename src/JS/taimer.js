@@ -2,7 +2,7 @@ let first_taimer=0
 function load_time(new_state=true){
     let info=null;
     console.log("таймер")
-    axios.get('https://tttdd.github.io/Sites/src/taimer.js')
+    axios.get('https://tttdd.github.io/Sites/src/taimer.html')
         .then((response)=> {
             // handle success
             info= response.data
