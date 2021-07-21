@@ -1,7 +1,7 @@
 let first_location=0
 async function load_location(new_state=true){
     let info=null;
-    let response=await axios.get('http://localhost:63342/Saite/src/location.html').catch((e)=>{console.log(e)})
+    let response=await axios.get('https://tttdd.github.io/Sites/src/location.js').catch((e)=>{console.log(e)})
     let link=document.querySelector("#index")
     info= response.data
     link.setAttribute("href","src/css/map-style.css")
