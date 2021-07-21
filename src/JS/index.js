@@ -7,7 +7,7 @@ function load_index(new_state=true){
             // handle success
             let link=document.querySelector("#index")
             info= response.data
-            link.setAttribute("href","css/index-style.css")
+            link.setAttribute("href","src/css/index-style.css")
             let new_main= document.createElement("div")
             new_main.innerHTML=info
             document.querySelector(".main-content").remove()
