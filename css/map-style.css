@@ -1,0 +1,27 @@
+.main-content{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 24px;
+    padding: 16px;
+    border: 1px solid #DDE0E6;
+    background: white;
+}
+.map-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.map-title img{
+    width: 10px;
+    height: 5px;
+}
+.image-container{
+    text-align: center;
+    width: 100%;
+}
+.image-container img{
+    max-width:100%;
+    height:auto;
+}
