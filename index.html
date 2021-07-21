@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="src/JS/history.js"></script>
+    <script src="src/JS/mediaWidht.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script  src="src/JS/location.js" ></script>
     <script  src="src/JS/index.js" ></script>
@@ -16,7 +15,7 @@
     <link rel="stylesheet" href="src/css/media-title-style.css">
     <title>Title</title>
 </head>
-<body onresize=get_change()>
+<body>
     <div class="title">
         <div class="high-title">
             <div class="left-items-container">
@@ -30,20 +29,32 @@
         </div>
         <div class="low-title">
             <div class="low-title-right-items-container">
-                <img src="src/img/icon/activity.png" class="one">
-                <a href="#" class="now"><span>Activity</span></a>
-                <img src="src/img/icon/map.png">
-                <span>Map</span>
-                <img src="src/img/icon/setting.png">
-                <span>Time</span>
+                <div class="low-title-right-items-container-activity-container" onclick=load_index()>
+                     <img src="src/img/icon/activity.png" class="one">
+                     <span class="profile">Activity</span>
+                </div>
+                <div class="low-title-right-items-container-map-container" onclick=load_location()>
+                    <img src="src/img/icon/map.png">
+                    <span class="map">Map</span>
+                </div>
+                <div onclick=load_time() class="low-title-right-items-container-time-container">
+                    <img src="src/img/icon/setting.png">
+                    <span class="time">Time</span>
+                </div>
             </div>
             <div class="low-title-left-items-container">
-                <img src="src/img/icon/document.png" class="one">
-                <span>Notes</span>
-                <img src="src/img/icon/man.png">
-                <span>Friends</span>
-                <img src="src/img/icon/man.png">
-                <span>Photos</span>
+                <div>
+                    <img src="src/img/icon/document.png" class="one">
+                    <span>Notes</span>
+                </div>
+                <div>
+                    <img src="src/img/icon/man.png">
+                    <span>Friends</span>
+                </div>
+                <div>
+                    <img src="src/img/icon/man.png">
+                    <span>Photos</span>
+                </div>
             </div>
         </div>
     </div>
@@ -79,7 +90,7 @@
             <div class="post-title-low-icons">
                 <div class="post-title-low-icons-left">
                     <img src="src/img/icon/eye.gif">
-                    <span>438</span>
+                    <span class="rofl">438</span>
                     <img src="src/img/icon/message.png">
                     <span>71</span>
                 </div>
