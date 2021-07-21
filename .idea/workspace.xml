@@ -1,73 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6305f014-0e7e-4015-91c2-0ef1427db643" name="Default Changelist" comment="Refix" />
+    <list default="true" id="42c80535-b1d1-43b0-bb71-895f81f8cd0e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectId" id="1vcBVbQ9AHTWuxJA2GpPGigp6CZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1vFqkpBdnm3mck2pQ7pOa6beoPf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Project/Sites" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Project\Sites\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Project\Sites\src" />
-      <recent name="C:\Project\Sites\css" />
+      <recent name="C:\Users\corni\WebstormProjects\Saite" />
+      <recent name="C:\Users\corni\WebstormProjects\Saite\src" />
+      <recent name="C:\Users\corni\WebstormProjects\Saite\img\icon" />
+      <recent name="C:\Users\corni\WebstormProjects\Saite\img\photo" />
+      <recent name="C:\Users\corni\WebstormProjects\Saite\img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6305f014-0e7e-4015-91c2-0ef1427db643" name="Default Changelist" comment="" />
-      <created>1626851521415</created>
+      <changelist id="42c80535-b1d1-43b0-bb71-895f81f8cd0e" name="Default Changelist" comment="" />
+      <created>1626168329780</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1626851521415</updated>
-      <workItem from="1626851524156" duration="1139000" />
+      <updated>1626168329780</updated>
+      <workItem from="1626168331055" duration="19028000" />
+      <workItem from="1626250347169" duration="2418000" />
+      <workItem from="1626262732758" duration="668000" />
+      <workItem from="1626292877208" duration="397000" />
+      <workItem from="1626331620324" duration="12663000" />
+      <workItem from="1626354507078" duration="82000" />
+      <workItem from="1626598648071" duration="15306000" />
+      <workItem from="1626678359906" duration="30834000" />
+      <workItem from="1626764963538" duration="12505000" />
+      <workItem from="1626811657886" duration="716000" />
+      <workItem from="1626846999835" duration="2322000" />
+      <workItem from="1626851487016" duration="1927000" />
     </task>
-    <task id="LOCAL-00001" summary="Refix">
-      <created>1626852086991</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1626852086991</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refix" />
   </component>
 </project>

@@ -4,7 +4,7 @@ async function load_location(new_state=true){
     let response=await axios.get('http://localhost:63342/Saite/src/location.html?_ijt=stujetsta4pplrjv3k1dfq50ca').catch((e)=>{console.log(e)})
     let link=document.querySelector("#index")
     info= response.data
-    link.setAttribute("href","css/map-style.css")
+    link.setAttribute("href","src/css/map-style.css")
     let new_main= document.createElement("div")
     new_main.innerHTML=info
     document.querySelector(".main-content").remove()
