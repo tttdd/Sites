@@ -1,0 +1,101 @@
+@media screen and (min-width:100px) and (max-width: 400px) {
+    .title {
+        height: 100%;
+        width: 100%;
+    }
+
+    .low-title div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .low-title {
+        padding-left: 25px;
+        padding-right: 25px;
+        /* height: 33px; */
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: space-between; */
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 717px) {
+    low-title-left-items-container{
+        padding-left: 15px;
+    }
+    .title{
+        height: 100%;
+        width: 100%;
+    }
+    .low-title div {
+        display: flex;
+        align-items: center;
+        height: 50%;
+        align-items: center;
+        margin: 15px 0px;
+        /* flex-direction: column; */
+    }
+    .low-title {
+        padding-left: 25px;
+        padding-right: 25px;
+        /* height: 33px; */
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:524px) and (min-width: 400px){
+    .balance{
+        text-align: center;
+        position: relative;
+        left: 30%;
+        color: #A1A5AE;
+    }
+    .connection-red{
+        text-align: center;
+        width: 23px;
+        height: 16px;
+        background: red;
+        color: white;
+        position: relative;
+        left: 30%;
+        border-radius: 8px;
+    }
+    .connection-blue{
+        text-align: center;
+        width: 23px;
+        height: 16px;
+        background: blue;
+        color: white;
+        position: relative;
+        left: 30%;
+        border-radius: 8px;
+    }
+    .message-block textarea {
+        border: 1px solid #DDE0E6;
+        padding: 0px;
+        min-height: 50px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .post-title-hight-icons {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        margin-bottom: 0px;
+        align-items: center;
+        text-align: center;
+    }
+    .post-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        align-content: center;
+    }
+}

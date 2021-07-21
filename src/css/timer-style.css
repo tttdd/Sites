@@ -1,0 +1,23 @@
+.timer{
+    pointer-events: none;
+    background: white;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow:  4px 4px 8px 0px rgba(1, 2, 4, 0.46);
+}
+.timer-title{
+    pointer-events: none;
+    padding: 0 15px;
+    display: flex;
+    height: 30px;
+    border-bottom: 1px solid grey ;
+    justify-content: space-between;
+    align-items: center;
+}
+.timer-time{
+    pointer-events: none;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    padding: 0 15px;
+}
