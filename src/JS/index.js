@@ -2,7 +2,7 @@ let first_load=0
 function load_index(new_state=true){
     let info=null;
     console.log("индекс")
-    axios.get('http://localhost:63342/Saite/src/index.html?_ijt=7kku2fogjgkk233bg01b8mramd')
+    axios.get('http://localhost:63342/Saite/index.html')
         .then((response)=> {
             // handle success
             let link=document.querySelector("#index")
