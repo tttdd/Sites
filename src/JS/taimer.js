@@ -2,7 +2,7 @@ let first_taimer=0
 function load_time(new_state=true){
     let info=null;
     console.log("таймер")
-    axios.get('http://localhost:63342/Saite/src/taimer.html?_ijt=stujetsta4pplrjv3k1dfq50ca')
+    axios.get('http://localhost:63342/Saite/src/taimer.html')
         .then((response)=> {
             // handle success
             info= response.data
